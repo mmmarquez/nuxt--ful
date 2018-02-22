@@ -1,0 +1,43 @@
+{
+	"nodes": [
+		{ "id": "royalblue", "label": "Analytics" },
+		{ "id": "orange", "label": "Consulting" },
+		{ "id": "yellow", "label": "Content Creation" },
+		{ "id": "green", "label": "Branding" },
+		{ "id": "blue", "label": "Boradcast" },
+		{ "id": "violet", "label": "Strategy" },
+		{ "id": "black", "label": "Integrated Campaigns" },
+		{ "id": "gold", "label": "Media Buying" },
+		{ "id": "teal", "label": "Public Relations" },
+		{ "id": "lime", "label": "Direct Mail" },
+		{ "id": "crimson", "label": "Social Media" },
+		{ "id": "red", "label": "Strategy" }
+	],
+	"links": [
+		{ "source": "red", "target": "yellow" },
+		{ "source": "red", "target": "blue" },
+		{ "source": "red", "target": "green" },
+		{ "source": "red", "target": "blue" },
+		{ "source": "red", "target": "violet" },
+		{ "source": "red", "target": "gold" },
+		{ "source": "red", "target": "orange" },
+		{ "source": "red", "target": "black" },
+		{ "source": "red", "target": "lime" },
+		{ "source": "red", "target": "green" },
+		{ "source": "red", "target": "teal" },
+		{ "source": "red", "target": "crimson" },
+		{ "source": "red", "target": "royalblue" },
+		{ "source": "teal", "target": "violet" },
+		{ "source": "green", "target": "violet" },
+		{ "source": "green", "target": "black" },
+		{ "source": "black", "target": "lime" },
+		{ "source": "lime", "target": "orange" },
+		{ "source": "orange", "target": "black" },
+		{ "source": "lime", "target": "blue" },
+		{ "source": "blue", "target": "gold" },
+		{ "source": "royalblue", "target": "yellow" },
+		{ "source": "yellow", "target": "crimson" },
+		{ "source": "crimson", "target": "violet" },
+		{ "source": "gold", "target": "yellow" }
+	]
+}
