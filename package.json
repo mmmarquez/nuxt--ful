@@ -15,6 +15,7 @@
     "lodash": "^4.17.4",
     "nuxt": "latest",
     "vue-in-viewport-directive": "^1.1.4",
+    "vue-markdown": "^2.2.4",
     "vue2-filters": "^0.3.0"
   },
   "devDependencies": {

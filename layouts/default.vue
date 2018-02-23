@@ -1,34 +1,30 @@
 <template>
   <!-- See https://tailwindcss.com/docs/container -->
-  <div>
-    <TopNavigation />
+  <!-- <div> -->
+    <!-- <TopNavigation />
     <transition
       name="mobile-slide"
       enter-active-class="slideInLeft"
       leave-active-class="slideOutRight"
-      >
-      <MobileNavigation v-if="mobileState"/>
-    </transition>
-    <div class="block w-full mx-auto mt-section">
+      > -->
+      <!-- <MobileNavigation v-if="mobileState"/> -->
+    <!-- </transition> -->
+    <div class="block w-full mx-auto mt-24">
       <nuxt/>
       <!-- <nuxt :style=" { marginBottom: footerHeight + 'px' } " /> -->
-
     </div>
-    <MainFooter />
-  </div>
+  <!-- </div> -->
 
 </template>
 
 <script>
 import TopNavigation from '@/components/navigation/TopNavigation';
-import MainFooter from '@/components/footer/MainFooter';
 import MobileNavigation from '@/components/navigation/MobileNavigation';
 
 export default {
 	name: 'default-layout',
 	components: {
 		TopNavigation,
-		MainFooter,
 		MobileNavigation
 	},
 	data: () => ({
